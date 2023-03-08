@@ -5,11 +5,11 @@
     --accent1-color: #8dffcd;
     --accent2-color: #04724d;
   
-    --heading-font: 'Shantell Sans', serif;
+    --heading-font: 'Shantell', sans;
     --paragraph-font: 'Heebo', serif;
   
-    --nav-background-color: #8dffcd;
-    --nav-link-color: #00b4d8;
+    --nav-background-color: #00b4d8;
+    --nav-link-color: #8dffcd;
     --nav-hover-link-color: #8dffcd;
     --nav-hover-background-color: #fcf300;
   }
@@ -19,11 +19,11 @@ body {
   }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
   }
 p {
     padding: 25px;
