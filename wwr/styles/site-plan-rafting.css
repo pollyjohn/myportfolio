@@ -9,9 +9,9 @@
     --paragraph-font: 'Heebo', serif;
   
     --nav-background-color: #8dffcd;
-    --nav-link-color: #fcf300;
+    --nav-link-color: #00b4d8;
     --nav-hover-link-color: #8dffcd;
-    --nav-hover-background-color: #00b4d8;
+    --nav-hover-background-color: #fcf300;
   }
 body {
     max-width: 960px;
