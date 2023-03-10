@@ -3,7 +3,7 @@ aside {
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
-    background-color: #eee;
+    background-color: #ca3737;
     color: #333;
     text-align: center;
   }
@@ -24,21 +24,21 @@ footer {
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: rgba(238, 81, 14, 0.938);
     display: block;
     padding: 20px
 }
 h1 {
-    color: steelblue;
+    color: rgb(19, 31, 146);
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(0, 140, 255);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p {
     padding: 10px;
-    color : blueviolet;
+    color : rgb(14, 27, 218);
 }
