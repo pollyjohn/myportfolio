@@ -94,7 +94,8 @@ aside {
 
 aside h2 {
   position: absolute;
-  top: -10px;
+  top: 730px;
+  left: 115px;
   text-align: center;
 }
 
@@ -108,10 +109,8 @@ aside img {
   clear: both;
   box-shadow: 0 0 20px rgba(248, 244, 244, 0.311);
 }
-/*aside img {
-  float: right;
-    width: 200px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;*/
+.temples h2 {
+  position: relative;
+  top: -10px
+}
     
