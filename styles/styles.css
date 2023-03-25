@@ -93,13 +93,13 @@ aside {
 }
 
 aside h2 {
-  position: relative;
+  position: absolute;
   top: -10px;
   text-align: center;
 }
 
 aside img {
-  position: absolute;
+  position: relative;
   float: inherit;
   top: 12px;
   width: auto;
