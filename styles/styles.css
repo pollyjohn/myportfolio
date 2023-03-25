@@ -99,7 +99,7 @@ aside h2 {
 }
 
 aside img {
-  position: relative;
+  position: absolute;
   float: inherit;
   top: 12px;
   width: auto;
