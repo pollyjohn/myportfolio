@@ -11,7 +11,7 @@
 	margin: 1rem auto;
 	background-color: #fefefedf;
 	padding: 1rem;
-	border: 1px solid rgba(0,0,0,.1);
+	border: 1px solid rgb(245, 245, 245);
   clear: both;
 
 }
@@ -21,7 +21,7 @@
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(247, 245, 245, 0.864);
     padding: 1em;
     background-color: #ca3737;
     color: #ffffffdf;
@@ -30,7 +30,7 @@ aside {
 
 footer {
     margin-top: 1em;
-    border-top: 1px solid #000;
+    border-top: 1px solid #f8f8f8;
     text-align: center;
   }
   nav {
@@ -78,7 +78,7 @@ p {
 /* Class Selectors */
 .box { 
 margin: 1rem;
-border: 1px solid rgba(2, 2, 2, 0.741); 
+border: 1px solid rgba(254, 254, 254, 0.741); 
 padding: 1rem;
 background-color: #ffffffdf;
 color: #3044c8;
@@ -106,7 +106,7 @@ aside img {
   height: auto;
   left: 50px;
   clear: both;
-  box-shadow: 0 0 20px rgba(2, 2, 2, 0.741);
+  box-shadow: 0 0 20px rgba(248, 244, 244, 0.741);
 }
 /*aside img {
   float: right;
