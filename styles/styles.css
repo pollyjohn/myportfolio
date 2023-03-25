@@ -21,7 +21,7 @@
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px solid rgba(247, 245, 245, 0.437);
+    border: 1px solid rgba(81, 81, 81, 0.437);
     padding: 1em;
     background-color: #ca3737;
     color: #ffffffdf;
@@ -30,7 +30,7 @@ aside {
 
 footer {
     margin-top: 1em;
-    border-top: 1px solid #ffffff64;
+    border-top: 1px solid #58585864;
     text-align: center;
   }
   nav {
@@ -80,7 +80,7 @@ p {
 margin: 1rem;
 border: 1px solid rgba(254, 254, 254, 0.251); 
 padding: 1rem;
-background-color: #ffffff9d;
+background-color: #8d8d8d9d;
 color: #3044c8;
 clear: both;
 }
