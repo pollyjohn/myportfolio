@@ -1,0 +1,118 @@
+@import url('https://fonts.google.com/share?selection.family=Heebo:wght@300%7CSecular%20One%7CShantell%20Sans');
+
+:root {
+    --primary-color: #fcf300;
+    --secondary-color: #00b4d8;
+    --accent1-color: #d6b70b;
+    --accent2-color: #0db57d;
+  
+    --heading-font: 'Shantell', sans;
+    --paragraph-font: 'Heebo', serif;
+  
+    --nav-background-color: #0db57d;
+    --nav-link-color: #d6b70b;
+    --nav-hover-link-color: #8dffcd;
+    --nav-hover-background-color: #fcf300;
+  }
+/*  .hero {
+    height: 500px;
+  }*/
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.hero2 img {
+    float: right;
+    width: 10%;
+    height: auto;
+    clear: both;
+    position: relative;
+    top: 5px;
+    left: -100px;
+  }
+.hero2 {
+  position: relative;
+  top: -10px;
+  width: 1000px;
+  left:150px ;
+  height: 90px;
+  background-color: beige;
+  clear: both;
+}
+
+.introduction {
+  position:relative;
+  top: 20px;
+  text-align:center;
+}
+
+body {
+    max-width:max-content;
+    padding:inherit;
+  }
+h1,h2,h3, h4, h5, h6 {
+  position: relative;
+    color: var(--accent1-color);
+    text-align:center;
+  }
+
+p {
+  font-size: 120%;
+  text-align: left;
+}
+#header-background {
+    width:auto ;
+    padding: inherit;
+    /*background: url("../images/hero.jpg");*/
+    background-color: var(--secondary-color);
+  }
+header nav{
+  position:relative;
+  width: 700px;
+  float: right;
+  top: 90px;
+  right: 200px;
+}  
+header nav a {
+  width: 700px;
+}
+/*p {
+    padding: 25px;
+  }*/
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+  
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+  
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+div hero {
+  background: url("../images/hero.jpg");
+}
+
+footer p {
+  position: absolute;
+  text-align: center;
+  left: 30%;
+  margin-top: 3%;
+}
+
+.sociallinks a{
+  position: relative;
+  left: 75%;
+}
