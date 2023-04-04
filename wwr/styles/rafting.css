@@ -3,33 +3,41 @@
 :root {
     --primary-color: #fcf300;
     --secondary-color: #00b4d8;
-    --accent1-color: #d6b70b;
-    --accent2-color: #0db57d;
+    --accent1-color: #0db57d;
+    --accent2-color: #fcf300;
   
     --heading-font: 'Shantell', sans;
     --paragraph-font: 'Heebo', serif;
   
-    --nav-background-color: #0db57d;
-    --nav-link-color: #d6b70b;
+    --nav-background-color: #fcf300;
+    --nav-link-color: #0db57d;
     --nav-hover-link-color: #8dffcd;
-    --nav-hover-background-color: #fcf300;
+    --nav-hover-background-color: #0db57d;
   }
 /*  .hero {
     height: 500px;
   }*/
-  .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+   
+  header{
+      margin: 0rem auto;
+      display: grid;
+      grid-template-columns: 600px 20fr 20fr;
+      align-items: center;
+      border-bottom: 3px solid #fcf300;
+      width: max-content;
+      flex: 10 10 100%;
+    }
+
+
 .hero2 img {
     float: right;
-    width: 10%;
+    width: 15%;
     height: auto;
     clear: both;
     position: relative;
-    top: 2.3px;
-    left: -100px;
+    top: -15%;
+    left: -5%;
+    box-shadow: 15px 15px 20px rgba(19, 17, 17, 100);
   }
 .hero2 {
   position: relative;
@@ -37,14 +45,25 @@
   width: 1000px;
   left:150px ;
   height: 90px;
-  background-color: beige;
-  clear: both;
 }
 
+article {
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: #041a15;
+  font-size: 18px;
+  font-weight: bold;
+}
 .introduction {
   position:relative;
-  top: 20px;
+  width: 70%;
+  top: -10px;
   text-align:center;
+  background-color: #00b3ff75;
+  left: 5%;
 }
 
 body {
@@ -55,6 +74,10 @@ h1,h2,h3, h4, h5, h6 {
   position: relative;
     color: var(--accent1-color);
     text-align:center;
+  }
+
+  .h h2 {
+    left: 3.5%;
   }
 
 p {
@@ -71,7 +94,6 @@ header nav{
   position:relative;
   width: 700px;
   float: right;
-  top: 90px;
   right: 200px;
 }  
 header nav a {
@@ -101,9 +123,6 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-div hero {
-  background: url("../images/hero.jpg");
-}
 
 footer p {
   position: absolute;
@@ -115,4 +134,56 @@ footer p {
 .sociallinks a{
   position: relative;
   left: 75%;
+}
+
+header img{
+  margin: 2% 1.25rem 2% 3rem;
+	width: 50%;
+	height: auto;
+}
+
+.h {
+  position: relative;
+  width: 70em; 
+  height: 13em;
+  left: 5%;
+}
+.p1 {
+  position: relative;
+  width:20em;
+  grid-row: 1/2;
+  top: -0.3em;
+  left: 2em ;
+}
+.h img {
+  position:relative;
+  width: 20%;
+  height: auto;
+  left: 30em;
+  top: -10em;
+}
+.p2 {
+  position: relative;
+  width:20em;
+  grid-row: 1/1;
+  grid-column: 1/1;
+  left: 40em;
+  top: -17em;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  right: 3%;
+
+}
+
+.column {
+  flex: 50%;
+  padding:-90px;
+}
+
+.H img {
+  width: 130%;
+  height: auto;
 }
