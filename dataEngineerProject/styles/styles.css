@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #fcf300;
+  --secondary-color: #00b4d8;
+  --accent1-color: #0db57d;
+  --accent2-color: #fcf300;
+
+  --heading-font: 'Shantell', sans;
+  --paragraph-font: 'Heebo', serif;
+
+  --nav-background-color: #e5de11;
+  --nav-link-color: #0db57d;
+  --nav-hover-link-color: #8dffcd;
+  --nav-hover-background-color: #0db57d;
+}
+
+div {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+.row1 {
+    position: relative;
+    display: flex;
+    height: 600px;
+  
+  }
+  
+  .row2 {
+    position: relative;
+    display: flex;
+    height: 600px;
+  }
+
+
+  header{
+    position: relative;
+    margin: 0rem auto;
+    background-color: #0db57d;
+    display: grid;
+    grid-template-columns: 600px 20fr 20fr;
+    border-bottom: 3px solid #0d0c02;
+    width: 1366px;
+    height:10em;
+  }
+
+  header nav{
+    position:relative;
+    width: max-content;
+    float: right;
+    left: 0px;
+  }  
+  header nav a {
+    width:max-content;
+    height: 10px;
+  }
+   nav {
+      background-color: var(--nav-background-color);
+      font-size: 1.2rem;
+      display: flex;
+      height: 4em;
+      position: relative;
+      top: 2em;
+      right: 15em;
+  }
+    
+  nav a{
+      display: block;
+      color: var(--nav-link-color);
+      text-decoration: none;
+      padding: 2rem;
+      left: 50em;
+  }
+    
+  nav a:link, nav a:visited {
+      color: var(--nav-link-color);
+      width: 10em;
+    }
+    
+  nav a:hover {
+      color: var(--nav-hover-link-color);
+      background-color: var(--nav-hover-background-color);
+  }
+

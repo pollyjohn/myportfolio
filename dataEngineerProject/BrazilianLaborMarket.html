@@ -7,8 +7,31 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
-    <main>
-        <iframe width="1286" height="1000" src="https://lookerstudio.google.com/embed/reporting/aa42467b-c835-4607-b277-c0d56e9d863f/page/p_0mrvm8si2c" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <header>
+            <nav class="header">
+                <a href="#apresentacao" onclick="scrollToElement('apresentacao')">Apresentação</a>
+                <a href="#looker" onclick="scrollToElement('looker')">Dashboard</a>
+            </nav>
+        </header>
+        <main>
+        <section>
+            <h1>Abaixo veja o powerpoint de explicação do projeto</h1>
+        </section>
+        <div id="apresentacao" class="row2">    
+            <iframe width="100%" height="100%" src="https://docs.google.com/presentation/d/1rsgy2IQrV9i2Yp-8-8Utj2tT53klLcs2/edit?usp=share_link&ouid=114288984384263944279&rtpof=true&sd=true/overwiew" frameborder="0" style="border:0" allowfullscreen></iframe>></iframe>
+        </div>
+        <section>
+            <h1>Abaixo veja o dashboard que criamos a partir dos dados tratados</h1>
+        </section>
+        <div id="looker" class="row1">
+            <iframe width="100%" height="100%" src="https://lookerstudio.google.com/embed/reporting/aa42467b-c835-4607-b277-c0d56e9d863f/page/p_0mrvm8si2c" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <script>
+            function scrollToElement(elementid) {
+                var element = document.getElementById(elementid);
+                element.scrollIntoView({behavior:"smooth"});
+            }
+        </script>
         </main>
 </body>
 </html>

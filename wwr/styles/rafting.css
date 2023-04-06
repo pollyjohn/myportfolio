@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #fcf300;
-    --secondary-color: #00b4d8;
+    --secondary-color: #00b3d6;
     --accent1-color: #0db57d;
     --accent2-color: #fcf300;
   
@@ -43,26 +43,28 @@
   position: relative;
   top: -10px;
   width: 1000px;
-  left:150px ;
+  left: 2em;
   height: 90px;
 }
 
 article {
+  position: relative;
   background-image: url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 50px;
-  color: #041a15;
-  font-size: 18px;
+  padding: 8%;
+  color: #fcf300;
+  font-size: 25px;
   font-weight: bold;
+  left: 30%;
 }
 .introduction {
   position:relative;
   width: 70%;
-  top: -10px;
+  top: -60px;
   text-align:center;
-  background-color: #00b3ff75;
+  background-color: #0db57dc8;
   left: 5%;
 }
 
@@ -85,9 +87,8 @@ p {
   text-align: left;
 }
 #header-background {
-    width:auto ;
+    width:fit-content;
     padding: inherit;
-    /*background: url("../images/hero.jpg");*/
     background-color: var(--secondary-color);
   }
 header nav{
