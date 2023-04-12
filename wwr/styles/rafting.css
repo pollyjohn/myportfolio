@@ -1,13 +1,12 @@
-@import url('https://fonts.google.com/share?selection.family=Heebo:wght@300%7CSecular%20One%7CShantell%20Sans');
-
+ @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Shantell+Sans&display=swap');
 :root {
     --primary-color: #fcf300;
     --secondary-color: #00b3d6;
     --accent1-color: #0db57d;
     --accent2-color: #fcf300;
   
-    --heading-font: 'Shantell', sans;
-    --paragraph-font: 'Heebo', serif;
+    --heading-font: 'Secular One';
+    --paragraph-font: 'Shantell Sans';
   
     --nav-background-color: #fcf300;
     --nav-link-color: #0db57d;
@@ -69,13 +68,14 @@ article {
 }
 
 body {
-    max-width:max-content;
+    max-width:fit-content;
     padding:inherit;
   }
 h1,h2,h3, h4, h5, h6 {
   position: relative;
     color: var(--accent1-color);
     text-align:center;
+    font-family: var(--heading-font);
   }
 
   .h h2 {
@@ -83,8 +83,9 @@ h1,h2,h3, h4, h5, h6 {
   }
 
 p {
-  font-size: 120%;
+  font-size: 100%;
   text-align: left;
+  font-family: var(--paragraph-font);
 }
 #header-background {
     width:fit-content;
@@ -154,22 +155,22 @@ header img{
   width:20em;
   grid-row: 1/2;
   top: -0.3em;
-  left: 2em ;
+  left: 8em ;
 }
 .h img {
   position:relative;
   width: 20%;
   height: auto;
   left: 30em;
-  top: -10em;
+  top: -90%;
 }
 .p2 {
   position: relative;
   width:20em;
   grid-row: 1/1;
   grid-column: 1/1;
-  left: 40em;
-  top: -17em;
+  left: 70%;
+  top:-167% ;
 }
 
 .row {

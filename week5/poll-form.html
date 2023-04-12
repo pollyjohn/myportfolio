@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/poll-form.css"> 
+    <title> WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | João Paulo Alves Pires Da Silva / HTML Form -User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>contact information </legend>
+                <div class="form column2">
+                    <label for="fullname" >Full name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form column2">
+                    <label>Email: <input type="email" id="useremail" name="useremail" > </label>
+                </div>
+                </fieldset>
+            <fieldset>
+                <br><legend>Questions</legend>
+                <div class="form column1"><label for="browsers">What is your favorite browser:</label>
+                    <select name="browsers" id="browsers">
+                        <option value="Firefox">Firefox</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Brave">Brave</option>
+                        <option value="Other">Other</option> 
+                    </select>
+                </div>
+                <br>
+                <div class="form column1">
+                    <label > Do you have a pet? <input type="checkbox" id="pet" name="pet"></label>
+                </div>
+                <div>
+                    <br><label >List the places where you have lived: <textarea name="feedback" id="feedback" rows="2" placeholder=" São paulo, Brasília, Rio de janeiro"></textarea></label>
+                </div>
+                <br>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>©2023 🚣‍♀️🌊 Gravity adventures 🌊🚣‍♀️ João Paulo Alves</p>
+    </footer>
+</body>
+</html>
