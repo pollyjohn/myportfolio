@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Shantell+Sans&display=swap');
+:root {
+    --primary-color: #fcf300;
+    --secondary-color: #00b3d6;
+    --accent1-color: #0db57d;
+    --accent2-color: #fcf300;
+  
+    --heading-font: 'Secular One';
+    --paragraph-font: 'Shantell Sans';
+  
+    --nav-background-color: #fcf300;
+    --nav-link-color: #0db57d;
+    --nav-hover-link-color: #8dffcd;
+    --nav-hover-background-color: #0db57d;
+  }
+/*  .hero {
+    height: 500px;
+  }*/
+   
+  header{
+      margin: 0rem auto;
+      display: grid;
+      grid-template-columns: 600px 20fr 20fr;
+      align-items: center;
+      border-bottom: 3px solid #fcf300;
+      width: 840px;
+      flex: 10 10 100%;
+    }
+
+
+.hero2 img {
+    float: right;
+    width: 15%;
+    height: auto;
+    clear: both;
+    position: relative;
+    top: -15%;
+    left: -5%;
+    box-shadow: 15px 15px 20px rgba(19, 17, 17, 100);
+  }
+
+.hero {
+  width:840px;
+  position: relative;
+  background-image: url("../images/rafting9_600.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 20%;
+  height: 20%;
+  padding: 8%;
+  color: #fcf300;
+  font-size: 25px;
+  font-weight: bold;
+}
+.introduction {
+  position:relative;
+  width: 70%;
+  top: -200%;
+  text-align:center;
+  background-color: #0db57dc8;
+  left: 5%;
+}
+
+body {
+    max-width:840px;
+    padding:inherit;
+  }
+h1,h2,h3, h4, h5, h6 {
+  position: relative;
+    color: var(--accent1-color);
+    text-align:center;
+    font-family: var(--heading-font);
+  }
+
+  .h h2 {
+    left: 3.5%;
+  }
+
+p {
+  font-size: 100%;
+  text-align: left;
+  font-family: var(--paragraph-font);
+}
+
+header nav{
+  position:relative;
+  width: max-content;
+  right: 65%;
+}  
+header nav a {
+  width: 700px;
+}
+/*p {
+    padding: 25px;
+  }*/
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+  
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+  
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+footer p {
+  position: absolute;
+  text-align: center;
+  left: 30%;
+  margin-top: 3%;
+}
+
+.sociallinks a{
+    
+  position: relative;
+  left: 75%;
+}
+
+header img{
+  margin: 2% 1.25rem 2% 3rem;
+	width: 840px;
+	height: auto;
+}
+
+.h {
+  position: relative;
+  width: 70em; 
+  height: 13em;
+  left: 5%;
+}
+.p1 {
+  position: relative;
+  width:20em;
+  grid-row: 1/2;
+  top: -0.3em;
+  left: 8em ;
+}
+.h img {
+  position:relative;
+  width: 20%;
+  height: auto;
+  left: 30em;
+  top: -90%;
+}
+.p2 {
+  position: relative;
+  width:20em;
+  grid-row: 1/1;
+  grid-column: 1/1;
+  left: 70%;
+  top:-167% ;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  right: 3%;
+
+}
+
+.column {
+  flex: 50%;
+  padding:-90px;
+}
+
+.H img {
+  width: 130%;
+  height: auto;
+}
