@@ -17,9 +17,11 @@
     --nav-hover-background-color: #0A84FF; /* Electric Blue */
 }
 
-html {
+@media only screen and (max-width: 600px) {
+    html {
     max-width: 100%;
     background-color: var(--primary-color);
+}
 }
 
 header {
@@ -73,12 +75,12 @@ header nav a:hover {
     width: 100%;
     height: auto;
 }
-@media only screen and (max-width: 600px) {
+
 main {
     margin-top: 37%;
     background-color: var(--nav-hover-link-color);
 }
-}
+
 .title {
     width: 100%;
     height: 150px;
