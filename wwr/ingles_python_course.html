@@ -7,19 +7,19 @@
     <meta name="description" content="Desbrave fronteiras com nosso curso de Inglês e Tecnologia. Aprenda inglês e domine as tecnologias mais avançadas do mercado.">
     <meta name="author" content="João Paulo Alves">
     <link rel="stylesheet" type="text/css" href="styles/ingles_tech.css">
-    <script src="./file.js"></script>
+    
 </head>
 <body>
     <header id="header-background">
         <img src="images/logo.png" alt="gravity logo">
-        <nav class="navigation">
+        <nav id="navigation">
             <a href="../index.html">Home</a>
             <a href="./about.html">Sobre Nós</a>
             <a href="#J" onclick='scrollTo("#J")'>principais techs</a>
             <a href="./contact.html" target="_blank">Contato</a>        
         </nav>
     </header>
-    <main >
+    <main>
         <div class= "title"> 
             <h1>Desbravando Fronteiras:<br>
             Curso de Inglês e Tecnologia para o Profissional do Futuro</h1>
@@ -49,18 +49,22 @@
         </div>
     <div class="wrap">
         <section class="h">
-            <ul class="p1">
-                <li>Inglês para o dia a dia e profissionais de tecnologia</li>
-                <li>Python para desenvolvimento de software</li>
-                <li>Python para engenharia/análise de dados</li>
-                <li>Docker/Kubernetes</li>
-                <li>Cloud Computing (AWS/GCP)</li>
-                <li>Linux</li>
-                <li>Banco de dados SQL/NoSQL</li>
-                <li>Algumas outras tecnologias bônus</li>
-            </ul>
-            <iframe width="553" height="280" src="https://www.youtube.com/embed/TZjyXUiSvLs" title="Curso de Carreira Transformador: Melhore Suas Habilidades em Inglês e programing/dados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section>
+            <nav class="redirect">
+                <ul class="p1">
+                <li><a href="" target="_blank"> Inglês para o dia a dia e profissionais de tecnologia</a></li>
+                <li><a href="" target="_blank"> Python para desenvolvimento de software</a></li>
+                <li><a href="" target="_blank"> Python para engenharia/análise de dados</a></li>
+                <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-docker" target="_blank"> Docker/Kubernetes</a></li>
+                <li><a href="" target="_blank"> Cloud Computing (AWS/GCP)</a></li>
+                <li><a href="" target="_blank"> Linux</a></li>
+                <li><a href="" target="_blank"> Banco de dados SQL/NoSQL</a></li>
+                <li><a href="" target="_blank"> Algumas outras tecnologias bônus</a></li>
+                </ul>
+            </nav>
+            <div class="video">
+                <iframe class="video"  width="553" height="280" src="https://www.youtube.com/embed/TZjyXUiSvLs" title="Curso de Carreira Transformador: Melhore Suas Habilidades em Inglês e programing/dados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div> 
+            </section>
     </div>
     <div class="wrap">
             <section class="G">
@@ -73,6 +77,7 @@
             </p>
         </section>
     </div>
+    <div  class="wrap">
        <section id="J">
             <h2>A aventura te Espera!</h2>
             <ul class="row">
@@ -90,7 +95,7 @@
                 </figure>
             </ul>
         </section>
-    
+    </div>
     </main>
     <footer>
         <p>©2023 💻​👨🏽‍💻​ JP tech & idioms 💻​👨🏽‍💻​ João Paulo Alves</p>
@@ -106,7 +111,6 @@
             </a>
         </nav>
     </footer>
-
 </body>
 <!-- 24/03/2023-->
 </html>
