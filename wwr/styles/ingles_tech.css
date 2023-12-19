@@ -17,7 +17,7 @@
     --nav-hover-background-color: #0A84FF; /* Electric Blue */
 }
 
-@media only screen and (max-width: 100%) {
+@media only screen and (max-width: 100%) and (min-width:100%) {
     html {
     background-color: var(--primary-color);
 }
@@ -27,6 +27,15 @@ body {
 }
 
 }
+
+
+@media only screen and (max-width: 600px) {
+    .redirect {
+        display: block;    }
+
+    .video {
+        width: 100%; 
+}}
 
 header {
     position: static;
@@ -170,12 +179,15 @@ h1 {
 }
 
 .video {
-    position: absolute;
-    bottom: -18%;
-    left: 50%;
+    float: right;
+    position: relative;
+    margin-right: 3%;
+    margin-left: 10%;
+    margin-top: -22%;
     box-shadow:35px 35px 30px rgba(19, 17, 17, 100);
     border:var(--nav-background-color);
     border-width: 5%;
+    clear: both;
 }
 
 h2,
